@@ -11,5 +11,6 @@ type Query {
 }
 
 type Mutation {
-    addPeople(name: String!, age: Int!, gender: String!): Person
+    addPeople(name: String!, age: Int!, gender: String!): Person!
+    deletePeople(id: Int!): Boolean!
 }

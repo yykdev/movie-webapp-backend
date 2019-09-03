@@ -32,6 +32,16 @@ export const getById = id => {
     return filteredPeople[0];
 };
 
+export const deletePeople = id => {
+    const cleanedPeople = people.filter(person => person.id !== id);
+    if (people.length > cleanedPeople.length) {
+        people = cleanedPeople;
+        return true;
+    } else {
+        return false;
+    }
+};
+
 export const addPeople = (name, age, gender) => {
     const newPeople = {
         id: people.length + 1,
