@@ -1,6 +1,7 @@
 {
   "name": "movie-webapp-backend",
   "version": "1.0.0",
+  "description": "Movie API with Graphql",
   "main": "index.js",
   "repository": "https://github.com/yykdev/movie-webapp-backend.git",
   "author": "yykdev <assavictory@gmail.com>",
