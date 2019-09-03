@@ -31,3 +31,16 @@ export const getById = id => {
     const filteredPeople = people.filter(person => person.id === id);
     return filteredPeople[0];
 };
+
+export const addPeople = (name, age, gender) => {
+    const newPeople = {
+        id: people.length + 1,
+        name,
+        age,
+        gender
+    };
+
+    people.push(newPeople);
+
+    return newPeople;
+};

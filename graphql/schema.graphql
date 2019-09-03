@@ -9,3 +9,7 @@ type Query {
     people: [Person]!
     person(id: Int!): Person
 }
+
+type Mutation {
+    addPeople(name: String!, age: Int!, gender: String!): Person
+}
