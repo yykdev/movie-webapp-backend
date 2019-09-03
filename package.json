@@ -1,0 +1,8 @@
+{
+  "name": "movie-webapp-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yykdev/movie-webapp-backend.git",
+  "author": "yykdev <assavictory@gmail.com>",
+  "license": "MIT"
+}
