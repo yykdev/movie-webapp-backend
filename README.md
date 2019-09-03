@@ -1,4 +1,4 @@
-# movie-webapp-backend
+# [GraphQL로 영화 API 만들기](https://academy.nomadcoders.co/p/make-a-movie-api-with-graphql-and-nodejs-super-begginner)
 
 ## [GraphQL yoga : https://github.com/prisma/graphql-yoga](https://github.com/prisma/graphql-yoga)
 
