@@ -4,9 +4,9 @@ type Movie {
     rating: Float!
     summary: String!
     language: String!
-    meduim_cover_image: String!
+    medium_cover_image: String!
 }
 
 type Query {
-    movies: [Movie]!
+    movies(litmit: Int, rating: Float): [Movie]!
 }
